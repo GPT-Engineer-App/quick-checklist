@@ -26,7 +26,7 @@ const Index = () => {
 
   return (
     <Box maxWidth="400px" margin="auto" mt={8}>
-      <Heading mb={8}>Todo App</Heading>
+      <Heading mb={8}>The BEST Todo App</Heading>
       <VStack spacing={4} align="stretch">
         <HStack>
           <Input value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="Enter a todo" />
